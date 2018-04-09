@@ -1,10 +1,9 @@
-# go_http_proxy
-A simple http proxy written by Golang
+# A simple http proxy written by Golang
 
-### Usage:
+## Usage:
 
 
-#### install
+### install
 ``` shell
 go get github.com/wusuopubupt/go-http-proxy
 ```
@@ -14,7 +13,7 @@ go get github.com/wusuopubupt/go-http-proxy
 cd ${GOPATH}/src/github.com/wusuopubupt/go-http-proxy && go run main.go -addr localhost:6666
 ```
 
-#### test
+### test
 ``` shell
 curl -x localhost:6666 www.google.com
 ```
