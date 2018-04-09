@@ -8,7 +8,7 @@
 go get github.com/wusuopubupt/go-http-proxy
 ```
 
-### run proxy server
+### run proxy server on you vps which can reach google.com
 ```
 cd ${GOPATH}/src/github.com/wusuopubupt/go-http-proxy && go run main.go -addr localhost:6666
 ```
